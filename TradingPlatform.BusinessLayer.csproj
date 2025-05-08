@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>TradingPlatform.BusinessLayer</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="AuthenticodeExaminer">
+      <HintPath>..\TradingPlatform\v1.143.2\bin\AuthenticodeExaminer.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net.Core">
+      <HintPath>..\TradingPlatform\v1.143.2\bin\protobuf-net.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentFTP">
+      <HintPath>..\TradingPlatform\v1.143.2\bin\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="IdentityModel.OidcClient">
+      <HintPath>..\TradingPlatform\v1.143.2\bin\IdentityModel.OidcClient.dll</HintPath>
+    </Reference>
+    <Reference Include="IdentityModel">
+      <HintPath>..\TradingPlatform\v1.143.2\bin\IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.15\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandLine">
+      <HintPath>..\TradingPlatform\v1.143.2\bin\CommandLine.dll</HintPath>
+    </Reference>
+    <Reference Include="NGettext">
+      <HintPath>..\TradingPlatform\v1.143.2\bin\NGettext.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
